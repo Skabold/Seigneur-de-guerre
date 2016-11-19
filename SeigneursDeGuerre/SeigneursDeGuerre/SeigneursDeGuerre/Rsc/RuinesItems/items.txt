@@ -1,0 +1,18 @@
+﻿nom;effet (VOL/NAGE/BONUS_FORCE/BONUS_MOUVEMENT/BONUS_OR);amplitude
+Etendard;BONUS_FORCE;15
+Epée Vorpale;BONUS_FORCE;25
+Bourse de Crésus;BONUS_OR;200
+Sandales d'Hermès;VOL;0
+Bottes de 7 lieues;BONUS_MOUVEMENT;7
+Couronne du Christ;NAGE;0
+Hâche de Druss;BONUS_FORCE;18
+Anneau Véloce;BONUS_MOUVEMENT;10
+Vieille Dette;BONUS_OR;50
+Rune d'inspiration;BONUS_FORCE;10
+Armure Démoniaque;BONUS_FORCE;22
+Juste une pièce;BONUS_OR;1
+Un vieux cheval;BONUS_MOUVEMENT;2
+Un destrier;BONUS_MOUVEMENT;5
+Un coffre plein d'or;BONUS_OR;350
+Vieux Parchemin;BONUS_FORCE;10
+Un peu d'or;BONUS_OR;25
