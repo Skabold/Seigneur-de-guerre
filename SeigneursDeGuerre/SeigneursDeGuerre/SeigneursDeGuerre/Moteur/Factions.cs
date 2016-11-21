@@ -77,18 +77,18 @@ namespace SeigneursDeGuerre.Moteur {
         /// Constructeur
         /// </summary>
         public Factions(Jeu leJeu) {
-            const int OR_INITIAL = 1000;
+            const int OR_INITIAL = 1500;
             _jeu = leJeu;
             _factions = new Faction[NB_FACTIONS + 1] {
                 new Faction("Neutres",Color.FromNonPremultiplied(140,140,140,255),0,OR_INITIAL),
-                new Faction("Sirylléens",Color.White,1,OR_INITIAL),
-                new Faction("Géants de Pierre",Color.Gold,2,OR_INITIAL),
-                new Faction("Nains Blancs",Color.Orange,3,OR_INITIAL),
-                new Faction("Orcs d'Usyrie",Color.Red,4,OR_INITIAL),
-                new Faction("Elfes Sombres",Color.FromNonPremultiplied(0,255,68,255),5,OR_INITIAL),
-                new Faction("Royaumes Libres",Color.Blue,6,OR_INITIAL),
-                new Faction("Seigneurs du Cheval",Color.FromNonPremultiplied(0,192,192,255),7,OR_INITIAL),
-                new Faction("Le Roi Liche",Color.Black,8,OR_INITIAL)
+                new Faction("CNC",Color.White,1,OR_INITIAL),
+                new Faction("Hommes",Color.Gold,2,OR_INITIAL),
+                new Faction("Nains",Color.Orange,3,OR_INITIAL),
+                new Faction("Orcs",Color.LightGreen,4,OR_INITIAL),
+                new Faction("Elfes",Color.Purple,5,OR_INITIAL),
+                new Faction("Tribus Hommes",Color.Blue,6,OR_INITIAL),
+                new Faction("Tribus Orcs",Color.Cyan,7,OR_INITIAL),
+                new Faction("La Confédération",Color.Black,8,OR_INITIAL)
             };
             _factions[0].humanPlayer = false;
         }

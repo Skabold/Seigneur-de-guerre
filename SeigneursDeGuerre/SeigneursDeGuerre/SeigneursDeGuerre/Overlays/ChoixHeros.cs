@@ -84,8 +84,8 @@ namespace SeigneursDeGuerre.Overlays {
         /// <param name="femme">nom de femme</param>
         /// <returns></returns>
         static public string nomAuHasard(Random rnd, bool femme) {
-            string[] nomsHommes = { "Martin", "Jack", "Guy", "Maxime", "Moloch", "Skabold", "Leo", "Alban", "Abraham", "Guillaume", "Hjerin", "Wazam", "Paul","Erwann","Pierre", };
-            string[] nomsFemmes = { "Karine", "Gabrielle", "Marie", "Christiane", "Yennifer","Suzon","Lucie","Léna","Anna","Emma","Candyce","Audrey","Lisa","Emilie", };
+            string[] nomsHommes = { "Martin", "Jack", "Guy", "Maxime", "Moloch", "Skabold", "Leo", "Alban", "Abraham", "Guillaume", "Hjerin", "Wazam", "Paul","Erwann","Pierre","Loris","aurélien","Mathieu","Kenzo", };
+            string[] nomsFemmes = { "Karine", "Gabrielle", "Manon", "Valérie", "Yennifer","Suzon","Lucie","Léna","Anna","Emma","Candyce","Audrey","Lisa","Emilie","Wladyslava", };
             return femme ? nomsFemmes[rnd.Next(nomsFemmes.Length)] : nomsHommes[rnd.Next(nomsHommes.Length)];
         }
 

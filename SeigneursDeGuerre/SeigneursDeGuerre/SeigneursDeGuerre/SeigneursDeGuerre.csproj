@@ -164,6 +164,8 @@
     <Compile Include="MainGame.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Rsc\Cartes\Carte_Campagne1.png" />
+    <EmbeddedResource Include="Rsc\Cartes\Ville_Campagne1.txt" />
     <EmbeddedResource Include="Rsc\Cartes\Carte_Escarmouches4.png" />
     <EmbeddedResource Include="Rsc\Cartes\Ville_Escarmouches4.txt" />
     <EmbeddedResource Include="Rsc\Cartes\Carte_Escarmouches3.png" />

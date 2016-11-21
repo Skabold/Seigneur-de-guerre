@@ -44,7 +44,7 @@ namespace SeigneursDeGuerre.Overlays {
                 };
                 _controles.Add(stopProd);
 
-                Bouton plusDef = new Bouton(_jeu, _xoverlay + 16, _yoverlay + 64 + (12 + Creatures.CREATURE_SIZE) * texProd.Length + 20 + 40 + 28 + 20 + Creatures.CREATURE_SIZE + 15 
+                Bouton plusDef = new Bouton(_jeu, _xoverlay + 16, _yoverlay + 50 + (12 + Creatures.CREATURE_SIZE) * texProd.Length + 20 + 40 + 28 + 20 + Creatures.CREATURE_SIZE + 15 
                     , "Augmenter la défense et la productivité", null, _jeu.font);
                 plusDef.click = delegate(Controle clicked, int x, int y, bool leftClick, bool rightClick, bool released) {
                     if (released) {
@@ -59,7 +59,7 @@ namespace SeigneursDeGuerre.Overlays {
                 _controles.Add(plusDef);
 
 
-                Bouton OK = new Bouton(_jeu, _xoverlay + 16+116, _yoverlay + 64 + (12 + Creatures.CREATURE_SIZE) * texProd.Length + 20 + 40 + 28 + 20 + Creatures.CREATURE_SIZE + 28 + 10 + 40
+                Bouton OK = new Bouton(_jeu, _xoverlay + 16+116, _yoverlay + 72 + (12 + Creatures.CREATURE_SIZE) * texProd.Length + 20 + 40 + 28 + 20 + Creatures.CREATURE_SIZE + 28 + 10 + 40
                 , " Valider ", null, _jeu.isoFont);
                 OK.click = delegate(Controle clicked, int x, int y, bool leftClick, bool rightClick, bool released) {
                     if (released) {
@@ -77,10 +77,10 @@ namespace SeigneursDeGuerre.Overlays {
                     for (int i = 0; i < texProd.Length; i++) {
                         // texte et profil de l'armée en production
                         drawOutlinedString(spriteBatch,_jeu.font, _jeu.creatures.description[_ville.typeCreatures[i]].nom,
-                             new Vector2(_xoverlay + 16 + Creatures.CREATURE_SIZE + 8, _yoverlay + 64 + (12 + Creatures.CREATURE_SIZE) * i), Color.White, Color.Crimson);
+                             new Vector2(_xoverlay + 16 + Creatures.CREATURE_SIZE + 8, _yoverlay + 58 + (12 + Creatures.CREATURE_SIZE) * i), Color.White, Color.Crimson);
 
                         spriteBatch.DrawString(_jeu.font, _jeu.creatures.description[_ville.typeCreatures[i]].profilAsStr(),
-                             new Vector2(_xoverlay + 16 + Creatures.CREATURE_SIZE + 8, _yoverlay + 64 + (12 + Creatures.CREATURE_SIZE) * i + 20), Color.White);
+                             new Vector2(_xoverlay + 16 + Creatures.CREATURE_SIZE + 8, _yoverlay + 58 + (12 + Creatures.CREATURE_SIZE) * i + 20), Color.White);
                         
                         int nbTours = _ville.geNbToursPourCreatures(_jeu.creatures.description[_ville.typeCreatures[i]].cout);
                         spriteBatch.DrawString(_jeu.font, "Coût : " + _jeu.creatures.description[_ville.typeCreatures[i]].cout
@@ -91,7 +91,7 @@ namespace SeigneursDeGuerre.Overlays {
                     int ynext = _yoverlay + 64 + (12 + Creatures.CREATURE_SIZE) * texProd.Length + 20;
                     drawOutlinedString(spriteBatch, _jeu.font, "~ Production courante ~", new Vector2(_xoverlay + 8, ynext), Color.White, Color.DarkBlue);
                     
-                    ynext += 20;
+                    ynext += 15;
                     int revenusVille = _ville.getRevenus();
                     spriteBatch.DrawString(_jeu.font, "Revenus de la ville : " + revenusVille,
                                  new Vector2(_xoverlay + 16 + 100, ynext), Color.White);
@@ -115,14 +115,14 @@ namespace SeigneursDeGuerre.Overlays {
 
                     ynext += Creatures.CREATURE_SIZE + 28;
                     drawOutlinedString(spriteBatch, _jeu.font, "~ Niveau de défense actuel : " + _ville.niveauDefense + " ~", new Vector2(_xoverlay + 8, ynext), Color.White, Color.DarkBlue);
-                    ynext += 30;
+                    ynext += 65;
 
                     spriteBatch.DrawString(_jeu.font, "Coût : " + _ville.orPourNiveauSuivant,
-                         new Vector2(_xoverlay + 16 + 190, ynext), Color.White);
+                         new Vector2(_xoverlay + 16 + 110, ynext), Color.White);
 
                     ynext += 20;
                     spriteBatch.DrawString(_jeu.font, "Or disponible : " + _jeu.factions.getFaction(_ville.faction).or,
-                         new Vector2(_xoverlay + 16 + 190, ynext), Color.White);
+                         new Vector2(_xoverlay + 16 + 110, ynext), Color.White);
 
                 };
                 _jeu.curseur.forme = Cursor.FormeCurseur.FLECHE;

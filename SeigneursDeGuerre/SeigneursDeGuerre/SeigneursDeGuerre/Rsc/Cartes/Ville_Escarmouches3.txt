@@ -1,7 +1,7 @@
 ﻿Indice;Nom;NiveauDefense;NiveauProductivité;CapitaleFaction;Faction;Productions possibles (indexes séparées par |)
-0;Ombre-mer;2;3;0;0;			5|14		
-1;Ombre-colline;2;3;8;8;		7|12|14
-2;Ombre-Terre;2;3;0;0;			7
-3;Hayord;2;2;0;0;				2|10
-4;Wildlyne;2;3;6;6;				2|1|6
-5;Paethelion;2;3;0;0;			6|13
+0;Ombre-mer;20;3;0;0;			5|14		
+1;Ombre-colline;20;3;8;8;		7|12|14
+2;Ombre-Terre;20;3;0;0;			7
+3;Hayord;20;2;0;0;				2|10
+4;Wildlyne;20;3;6;6;			2|1|6
+5;Paethelion;20;3;0;0;			6|13

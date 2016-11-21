@@ -115,7 +115,7 @@ namespace SeigneursDeGuerre.Moteur {
         }
 
         public int orPourNiveauSuivant {
-            get { return _niveauDefense * 250; }
+            get { return _niveauDefense * 200; }
         }
 
         public int productionPoints {

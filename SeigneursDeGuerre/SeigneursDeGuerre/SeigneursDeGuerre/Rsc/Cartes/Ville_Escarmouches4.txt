@@ -1,24 +1,24 @@
 ﻿Indice;Nom;NiveauDefense;NiveauProductivité;CapitaleFaction;Faction;Productions possibles (indexes séparées par |)
-0;nainC;2;3;3;3;				9|3	
-1;nain;1;2;0;0;					1|2	
-2;nain;1;3;0;0;					3|11	
-3;nain;1;3;0;0;					11|3	
-4;neutre marais;1;2;0;0;		13	
-5;elfe;1;2;0;0;					6|8	
-6;neutre eau;1;2;0;0;			5|1	
-7;homme;1;2;0;0;				2|13
-8;elfe ;1;2;0;0;				6|
-9;hommeC;2;3;7;7;				4|13
-10;elfeC;2;3;5;5;				8|13
-11;neutre montagne;1;2;0;0;		17	
-12;homme marais;1;2;0;0;		12|11
-13;neutre foret;1;2;0;0;		6	
-14;homme foret;1;3;0;0;			6|11	
-15;neutre colline;1;2;0;0;		30	
-16;elfe foret;1;2;0;0;			6	
-17;neutre colline;1;3;0;0;		30
-18;neutre eau;1;2;0;0;			5|2
-19;géant marais;1;3;0;0;		30|0	
-20;géant eau;1;3;0;0;			30|5	
-21;géant foret;1;2;0;0;			0	
-22;géantC colline;2;3;2;2;		9|17	
+0;Hjerin;20;3;3;3;				9|3	
+1;Zdarftar;10;2;0;0;			1|2	
+2;Plitorak;10;3;0;0;			3|11	
+3;Darvokume;10;3;0;0;			11|3	
+4;Muruscous;10;2;0;0;	    	13	
+5;Logafor;10;2;0;0;		    	6|8	
+6;Zdarta;10;2;0;0;		    	5|1	
+7;Hutopa;10;2;0;0;				2|13
+8;Rosaesre ;10;2;0;0;			6|
+9;Glubaltout;20;3;7;7;			4|13
+10;Pinnatefe;20;3;5;5;			8|13
+11;Vadka;10;2;0;0;	         	17	
+12;Wiskros;10;2;0;0;	    	12|11
+13;Cobarg;10;2;0;0;				6	
+14;FironLand;10;3;0;0;			6|11	
+15;Wlaids;10;2;0;0;				30	
+16;Frarard;10;2;0;0;			6	
+17;Karteux;10;3;0;0;			30
+18;Ftarcnine;10;2;0;0;			5|2
+19;Srallk;10;3;0;0;				30|0	
+20;Valouscous;10;3;0;0;			30|5	
+21;Candyrrez;10;2;0;0;			0	
+22;Fortos;20;3;2;2;				9|17	

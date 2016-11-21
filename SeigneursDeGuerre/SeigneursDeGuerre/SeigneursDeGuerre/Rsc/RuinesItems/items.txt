@@ -1,6 +1,6 @@
 ﻿nom;effet (VOL/NAGE/BONUS_FORCE/BONUS_MOUVEMENT/BONUS_OR);amplitude
 Etendard;BONUS_FORCE;15
-Epée Vorpale;BONUS_FORCE;25
+Epée Vorpale;BONUS_FORCE;15
 Bourse de Crésus;BONUS_OR;200
 Sandales d'Hermès;VOL;0
 Bottes de 7 lieues;BONUS_MOUVEMENT;7
@@ -15,4 +15,34 @@ Un vieux cheval;BONUS_MOUVEMENT;2
 Un destrier;BONUS_MOUVEMENT;5
 Un coffre plein d'or;BONUS_OR;350
 Vieux Parchemin;BONUS_FORCE;10
+Etendard Antique;BONUS_FORCE;17
+Epée Vorpale Antique;BONUS_FORCE;27
+Bourse de Crésus Antique;BONUS_OR;250
+Bottes de 7 lieues Antique;BONUS_MOUVEMENT;14
+Hâche Antique;BONUS_FORCE;18
+Anneau Antique;BONUS_MOUVEMENT;12
+Rune Antique;BONUS_FORCE;17
+Armure Angelique;BONUS_FORCE;22
+Juste une pièce... ANTIQUE;BONUS_OR;500
+Un vieux cheval;BONUS_MOUVEMENT;2
+Un destrier;BONUS_MOUVEMENT;5
+Vieux Parchemin;BONUS_FORCE;10
 Un peu d'or;BONUS_OR;25
+Etendard;BONUS_FORCE;15
+Epée;BONUS_FORCE;5
+Bourse;BONUS_OR;20
+Sandales;BONUS_MOUVEMENT;1
+Bottes;BONUS_MOUVEMENT;2
+Couronne;BONUS_OR;50
+Hâche;BONUS_FORCE;5
+Anneau;BONUS_OR;10
+Vieille Dette;BONUS_OR;50
+Rune d'inspiration;BONUS_FORCE;10
+Armure;BONUS_FORCE;5
+Vieux Parchemin;BONUS_FORCE;10
+Un peu d'or;BONUS_OR;25
+Une statuette;BONUS_OR;25
+Un couteau;BONUS_FORCE;2
+Un couteau FADE;BONUS_FORCE;10
+Vos clés que vous aviez perdu jadis;BONUS_OR;0
+Un jolie poney;BONUS_MOUVEMENT;5

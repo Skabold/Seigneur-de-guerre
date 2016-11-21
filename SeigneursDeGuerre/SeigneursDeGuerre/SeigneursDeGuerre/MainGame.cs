@@ -84,7 +84,7 @@ namespace SeigneursDeGuerre {
             // Carte de test
             System.Drawing.Bitmap carteTest = new System.Drawing.Bitmap(
                                 System.Reflection.Assembly.GetEntryAssembly().
-                                GetManifestResourceStream("SeigneursDeGuerre.Rsc.Cartes.Carte_Escarmouches4.png"));
+                                GetManifestResourceStream("SeigneursDeGuerre.Rsc.Cartes.Carte_Campagne1.png"));
 
             TerrainDescription td = new TerrainDescription(carteTest);
             Terrain t = new Terrain(jeu);
@@ -93,10 +93,10 @@ namespace SeigneursDeGuerre {
             carteTest.Dispose();
 
             // Création des villes -------------------------------------------------------
-            Villes v = new Villes(jeu, "Cartes.Ville_Escarmouches4.txt");
+            Villes v = new Villes(jeu, "Cartes.Ville_Campagne1.txt");
             jeu.villes = v;
 
-            // Ruines & items ------------------------------------------------------------
+            // Ruines & liste d'item disponible pour la carte ----------------------------
             jeu.items = new Items(jeu, "RuinesItems.items.txt");
             jeu.ruines = new Ruines(jeu);
 

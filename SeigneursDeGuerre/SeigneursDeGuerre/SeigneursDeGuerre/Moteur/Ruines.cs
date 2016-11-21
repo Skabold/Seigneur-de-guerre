@@ -51,7 +51,7 @@ namespace SeigneursDeGuerre.Moteur {
             if (nbRuines > nbItems) {
                 throw new ArgumentException("Il n'y a pas assez d'items décrits dans la liste pour le nombre de ruines de la carte");
             }
-            // Place les items
+            // Place les items (dans l'ordre de la liste, c'est pas rigolo faut mettre du hasard !!)
             for (int itemNb = 1; itemNb < nbRuines; itemNb++) {
                 int idx;
                 do {
